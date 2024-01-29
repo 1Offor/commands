@@ -7,6 +7,7 @@
 body{
     background-image: url(images/background.jpg);
     background-size: cover;
+    position: sticky;
     
 }
 
@@ -18,10 +19,11 @@ body{
 
 .form-box{
     width: 380px;
-    height: 480px;
+    height: 600px;
+    color: #ffad06;
     position: relative;
     margin: 6% auto;
-    background: aqua;
+    background: rgba(30, 31, 31, 0.068);
     padding: 5px;
     overflow: hidden;
 }
@@ -36,7 +38,7 @@ body{
 }
 
 .toggle-btn{
-    padding: 10px 30px;
+    padding: 8px 30px;
     cursor: pointer;
     background: transparent;
     border: 0;
@@ -55,7 +57,7 @@ body{
 }
 
 .tag-icon{
-    margin: 30px auto;
+    margin: 25px auto;
     text-align: center;
 }
 .tag-icon img{
@@ -67,24 +69,31 @@ body{
 }
 
 .inputs{
-    top: 180px;
+    top: 170px;
     width: 280px;
     position: absolute;
     transition: 0.5s;
+    color: hsl(40, 19%, 91%);
     align-items: center;
+    background: rgba(30, 31, 31, 0.068);;
+    
+    
 }
 
 .input-field{
     justify-content: center;
     align-items: center;
+    background: rgba(30, 31, 31, 0.068);;
     width: 100%;
     padding: 10px 5px;
     margin: 5px 3px;
+    color: hsl(40, 29%, 92%);
     border-left: 0;
     border-right: 0;
     border-top: 0;
-    border-bottom: 2px solid #ff105f;
+    border-bottom: 2px solid seagreen;
     outline: none;
+    font-weight: bold;
 }
 
 .submit-btn{
@@ -104,25 +113,70 @@ body{
 }
 
 span{
-    color: black;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     bottom: 68px;
     position: absolute;
-
+    font-size: 18px;
+    background: #0a0a0a;
 }
 
 #login{
     left: 50px;
-
 }
 
 #register{
     left: 450px;
 }
 
+.label-for{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(30, 31, 31, 0.068);;
+    height: 2rem;
+    color: hwb(43 93% 5%);
+    margin-left: 3px;
+    border-bottom: 2px solid seagreen;
+    width: 18.1rem;
 
+}
 
+#radio{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-left: 3rem;
+}
 
+.phonenumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(30, 31, 31, 0.068);;
+    height: 2rem;
+    color: rgba(238, 229, 229, 0.911);
+    margin: 5px 3px;
+    margin-left: 3px;
+    border-bottom: 2px solid seagreen;
+    width: 18.1rem;
+}
 
+.Phone{
+    background: rgba(30, 31, 31, 0.068);
+    border: none;
+    color: green;
+}
 
+.phone-field{
+    background: rgba(30, 31, 31, 0.068);
+    color: red;
+    border-color: none;
+    border: 0;
+}
+
+.option {
+    background: black;
+    border: none;
+}

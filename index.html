@@ -25,18 +25,40 @@
     
         </div>
         <form id="login" class="inputs">
-            <input type="text" class="input-field" placeholder="user Id" required>
+            <input type="text" class="input-field" placeholder="user Id" required value="User Id">
             
-            <input type="text" class="input-field" placeholder="password" required>
+            <input type="password" class="input-field" placeholder="password" required value="password">
             <input type="checkbox" class="check-box"><span>Remember Me</span>
             <button type="submit" class="submit-btn">Login</button>
 
         </form>
         <form id="register" class="inputs">
-            <input type="text" class="input-field" placeholder="user Id" required>
-            <input type="email" class="input-field" placeholder="email Id" required>
+            <input type="text" class="input-field" placeholder="First name" required value="First name">
+            <input type="text" class="input-field" placeholder="Last name" required value="Last name">
+            <input type="text" class="input-field" placeholder="user Id" required value="user id">
+            <label class="label-for">Gender
+                <input type="radio" class="input-field" placeholder="" required id="radio">Male
+                <input type="radio" class="input-field" placeholder="" required id="radio">Female
+            </label>
             
-            <input type="text" class="input-field" placeholder="password" required>
+            <label class="phonenumber">Phone number
+                <select class="Phone">
+                    <option class="option">+234</option>
+                    <option class="option">+235</option>
+                    <option class="option">+236</option>
+                    <option class="option">+237</option>
+                    <option class="option">+238</option>
+                    <option class="option">+239</option>
+                     </select>
+                     <input type="number" class="phone-field" placeholder="080****" name="phonenumber" value="number">
+         
+            </label>
+                            
+           
+            
+            <input type="email" class="input-field" placeholder="email Id" required value="email Id">
+            
+            <input type="password" class="input-field" placeholder="password" required value="password">
             <input type="checkbox" class="check-box"><span>Agree to Terms and Conditions</span>
             <button type="submit" class="submit-btn">Register</button>
 
